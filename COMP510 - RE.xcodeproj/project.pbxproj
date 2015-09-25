@@ -15,6 +15,7 @@
 		64DC76781BB4DB0000A459CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC76761BB4DB0000A459CE /* LaunchScreen.storyboard */; };
 		64DC76831BB4DB0000A459CE /* COMP510___RETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC76821BB4DB0000A459CE /* COMP510___RETests.swift */; };
 		64DC768E1BB4DB0000A459CE /* COMP510___REUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC768D1BB4DB0000A459CE /* COMP510___REUITests.swift */; };
+		A673E39D368EED19D1D62D91 /* Pods_COMP510___RE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659161D3C8682E17E050C580 /* Pods_COMP510___RE.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		64DC76891BB4DB0000A459CE /* COMP510 - REUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMP510 - REUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DC768D1BB4DB0000A459CE /* COMP510___REUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "COMP510___REUITests.swift"; sourceTree = "<group>"; };
 		64DC768F1BB4DB0000A459CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659161D3C8682E17E050C580 /* Pods_COMP510___RE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_COMP510___RE.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B220B913FA7A8ABE29C620 /* Pods-COMP510 - RE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COMP510 - RE.release.xcconfig"; path = "Pods/Target Support Files/Pods-COMP510 - RE/Pods-COMP510 - RE.release.xcconfig"; sourceTree = "<group>"; };
+		92DE213515A5C57D5189A818 /* Pods-COMP510 - RE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COMP510 - RE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-COMP510 - RE/Pods-COMP510 - RE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A673E39D368EED19D1D62D91 /* Pods_COMP510___RE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				64DC76811BB4DB0000A459CE /* COMP510 - RETests */,
 				64DC768C1BB4DB0000A459CE /* COMP510 - REUITests */,
 				64DC76681BB4DB0000A459CE /* Products */,
+				D89C8E876395FAC135E2DDBC /* Pods */,
+				933046A38D5E780FE3DBB887 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +135,23 @@
 			path = "COMP510 - REUITests";
 			sourceTree = "<group>";
 		};
+		933046A38D5E780FE3DBB887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659161D3C8682E17E050C580 /* Pods_COMP510___RE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89C8E876395FAC135E2DDBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92DE213515A5C57D5189A818 /* Pods-COMP510 - RE.debug.xcconfig */,
+				65B220B913FA7A8ABE29C620 /* Pods-COMP510 - RE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64DC76921BB4DB0000A459CE /* Build configuration list for PBXNativeTarget "COMP510 - RE" */;
 			buildPhases = (
+				21321FC83C1DB46FC7FAC4EF /* Check Pods Manifest.lock */,
 				64DC76631BB4DB0000A459CE /* Sources */,
 				64DC76641BB4DB0000A459CE /* Frameworks */,
 				64DC76651BB4DB0000A459CE /* Resources */,
+				A91AC9AD044CA5918957659F /* Embed Pods Frameworks */,
+				40222EC5EB002D60C6B7382F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21321FC83C1DB46FC7FAC4EF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40222EC5EB002D60C6B7382F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COMP510 - RE/Pods-COMP510 - RE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A91AC9AD044CA5918957659F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COMP510 - RE/Pods-COMP510 - RE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64DC76631BB4DB0000A459CE /* Sources */ = {
@@ -398,6 +473,7 @@
 		};
 		64DC76931BB4DB0000A459CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92DE213515A5C57D5189A818 /* Pods-COMP510 - RE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "COMP510 - RE/Info.plist";
@@ -409,6 +485,7 @@
 		};
 		64DC76941BB4DB0000A459CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B220B913FA7A8ABE29C620 /* Pods-COMP510 - RE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "COMP510 - RE/Info.plist";
@@ -485,6 +562,7 @@
 				64DC76941BB4DB0000A459CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64DC76951BB4DB0000A459CE /* Build configuration list for PBXNativeTarget "COMP510 - RETests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +571,7 @@
 				64DC76971BB4DB0000A459CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64DC76981BB4DB0000A459CE /* Build configuration list for PBXNativeTarget "COMP510 - REUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +580,7 @@
 				64DC769A1BB4DB0000A459CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
