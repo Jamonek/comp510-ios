@@ -15,6 +15,7 @@
 		64DC76781BB4DB0000A459CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC76761BB4DB0000A459CE /* LaunchScreen.storyboard */; };
 		64DC76831BB4DB0000A459CE /* COMP510___RETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC76821BB4DB0000A459CE /* COMP510___RETests.swift */; };
 		64DC768E1BB4DB0000A459CE /* COMP510___REUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC768D1BB4DB0000A459CE /* COMP510___REUITests.swift */; };
+		64DC769E1BB4FAE100A459CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC769D1BB4FAE100A459CE /* User.swift */; settings = {ASSET_TAGS = (); }; };
 		A673E39D368EED19D1D62D91 /* Pods_COMP510___RE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659161D3C8682E17E050C580 /* Pods_COMP510___RE.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		64DC76891BB4DB0000A459CE /* COMP510 - REUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMP510 - REUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DC768D1BB4DB0000A459CE /* COMP510___REUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "COMP510___REUITests.swift"; sourceTree = "<group>"; };
 		64DC768F1BB4DB0000A459CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DC769D1BB4FAE100A459CE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		659161D3C8682E17E050C580 /* Pods_COMP510___RE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_COMP510___RE.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B220B913FA7A8ABE29C620 /* Pods-COMP510 - RE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COMP510 - RE.release.xcconfig"; path = "Pods/Target Support Files/Pods-COMP510 - RE/Pods-COMP510 - RE.release.xcconfig"; sourceTree = "<group>"; };
 		92DE213515A5C57D5189A818 /* Pods-COMP510 - RE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COMP510 - RE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-COMP510 - RE/Pods-COMP510 - RE.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,8 @@
 		64DC76691BB4DB0000A459CE /* COMP510 - RE */ = {
 			isa = PBXGroup;
 			children = (
+				64DC769C1BB4FA2800A459CE /* Controller */,
+				64DC769B1BB4FA2200A459CE /* Model */,
 				64DC766A1BB4DB0000A459CE /* AppDelegate.swift */,
 				64DC766C1BB4DB0000A459CE /* ViewController.swift */,
 				64DC766E1BB4DB0000A459CE /* Main.storyboard */,
@@ -133,6 +137,21 @@
 				64DC768F1BB4DB0000A459CE /* Info.plist */,
 			);
 			path = "COMP510 - REUITests";
+			sourceTree = "<group>";
+		};
+		64DC769B1BB4FA2200A459CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64DC769D1BB4FAE100A459CE /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		64DC769C1BB4FA2800A459CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		933046A38D5E780FE3DBB887 /* Frameworks */ = {
@@ -333,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DC769E1BB4FAE100A459CE /* User.swift in Sources */,
 				64DC766D1BB4DB0000A459CE /* ViewController.swift in Sources */,
 				64DC76731BB4DB0000A459CE /* COMP510___RE.xcdatamodeld in Sources */,
 				64DC766B1BB4DB0000A459CE /* AppDelegate.swift in Sources */,
