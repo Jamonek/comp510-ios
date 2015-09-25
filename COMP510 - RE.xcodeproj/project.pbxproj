@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64DC766B1BB4DB0000A459CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC766A1BB4DB0000A459CE /* AppDelegate.swift */; };
+		64DC766D1BB4DB0000A459CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC766C1BB4DB0000A459CE /* ViewController.swift */; };
+		64DC76701BB4DB0000A459CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC766E1BB4DB0000A459CE /* Main.storyboard */; };
+		64DC76731BB4DB0000A459CE /* COMP510___RE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64DC76711BB4DB0000A459CE /* COMP510___RE.xcdatamodeld */; };
+		64DC76751BB4DB0000A459CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DC76741BB4DB0000A459CE /* Assets.xcassets */; };
+		64DC76781BB4DB0000A459CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC76761BB4DB0000A459CE /* LaunchScreen.storyboard */; };
+		64DC76831BB4DB0000A459CE /* COMP510___RETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC76821BB4DB0000A459CE /* COMP510___RETests.swift */; };
+		64DC768E1BB4DB0000A459CE /* COMP510___REUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC768D1BB4DB0000A459CE /* COMP510___REUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64DC767F1BB4DB0000A459CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64DC765F1BB4DB0000A459CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64DC76661BB4DB0000A459CE;
+			remoteInfo = "COMP510 - RE";
+		};
+		64DC768A1BB4DB0000A459CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64DC765F1BB4DB0000A459CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64DC76661BB4DB0000A459CE;
+			remoteInfo = "COMP510 - RE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64DC76671BB4DB0000A459CE /* COMP510 - RE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COMP510 - RE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DC766A1BB4DB0000A459CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64DC766C1BB4DB0000A459CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64DC766F1BB4DB0000A459CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64DC76721BB4DB0000A459CE /* COMP510___RE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "COMP510___RE.xcdatamodel"; sourceTree = "<group>"; };
+		64DC76741BB4DB0000A459CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64DC76771BB4DB0000A459CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64DC76791BB4DB0000A459CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DC767E1BB4DB0000A459CE /* COMP510 - RETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMP510 - RETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DC76821BB4DB0000A459CE /* COMP510___RETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "COMP510___RETests.swift"; sourceTree = "<group>"; };
+		64DC76841BB4DB0000A459CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DC76891BB4DB0000A459CE /* COMP510 - REUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMP510 - REUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DC768D1BB4DB0000A459CE /* COMP510___REUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "COMP510___REUITests.swift"; sourceTree = "<group>"; };
+		64DC768F1BB4DB0000A459CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64DC76641BB4DB0000A459CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC767B1BB4DB0000A459CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC76861BB4DB0000A459CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64DC765E1BB4DB0000A459CE = {
+			isa = PBXGroup;
+			children = (
+				64DC76691BB4DB0000A459CE /* COMP510 - RE */,
+				64DC76811BB4DB0000A459CE /* COMP510 - RETests */,
+				64DC768C1BB4DB0000A459CE /* COMP510 - REUITests */,
+				64DC76681BB4DB0000A459CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64DC76681BB4DB0000A459CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64DC76671BB4DB0000A459CE /* COMP510 - RE.app */,
+				64DC767E1BB4DB0000A459CE /* COMP510 - RETests.xctest */,
+				64DC76891BB4DB0000A459CE /* COMP510 - REUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64DC76691BB4DB0000A459CE /* COMP510 - RE */ = {
+			isa = PBXGroup;
+			children = (
+				64DC766A1BB4DB0000A459CE /* AppDelegate.swift */,
+				64DC766C1BB4DB0000A459CE /* ViewController.swift */,
+				64DC766E1BB4DB0000A459CE /* Main.storyboard */,
+				64DC76741BB4DB0000A459CE /* Assets.xcassets */,
+				64DC76761BB4DB0000A459CE /* LaunchScreen.storyboard */,
+				64DC76791BB4DB0000A459CE /* Info.plist */,
+				64DC76711BB4DB0000A459CE /* COMP510___RE.xcdatamodeld */,
+			);
+			path = "COMP510 - RE";
+			sourceTree = "<group>";
+		};
+		64DC76811BB4DB0000A459CE /* COMP510 - RETests */ = {
+			isa = PBXGroup;
+			children = (
+				64DC76821BB4DB0000A459CE /* COMP510___RETests.swift */,
+				64DC76841BB4DB0000A459CE /* Info.plist */,
+			);
+			path = "COMP510 - RETests";
+			sourceTree = "<group>";
+		};
+		64DC768C1BB4DB0000A459CE /* COMP510 - REUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64DC768D1BB4DB0000A459CE /* COMP510___REUITests.swift */,
+				64DC768F1BB4DB0000A459CE /* Info.plist */,
+			);
+			path = "COMP510 - REUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64DC76661BB4DB0000A459CE /* COMP510 - RE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DC76921BB4DB0000A459CE /* Build configuration list for PBXNativeTarget "COMP510 - RE" */;
+			buildPhases = (
+				64DC76631BB4DB0000A459CE /* Sources */,
+				64DC76641BB4DB0000A459CE /* Frameworks */,
+				64DC76651BB4DB0000A459CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "COMP510 - RE";
+			productName = "COMP510 - RE";
+			productReference = 64DC76671BB4DB0000A459CE /* COMP510 - RE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64DC767D1BB4DB0000A459CE /* COMP510 - RETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DC76951BB4DB0000A459CE /* Build configuration list for PBXNativeTarget "COMP510 - RETests" */;
+			buildPhases = (
+				64DC767A1BB4DB0000A459CE /* Sources */,
+				64DC767B1BB4DB0000A459CE /* Frameworks */,
+				64DC767C1BB4DB0000A459CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64DC76801BB4DB0000A459CE /* PBXTargetDependency */,
+			);
+			name = "COMP510 - RETests";
+			productName = "COMP510 - RETests";
+			productReference = 64DC767E1BB4DB0000A459CE /* COMP510 - RETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64DC76881BB4DB0000A459CE /* COMP510 - REUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DC76981BB4DB0000A459CE /* Build configuration list for PBXNativeTarget "COMP510 - REUITests" */;
+			buildPhases = (
+				64DC76851BB4DB0000A459CE /* Sources */,
+				64DC76861BB4DB0000A459CE /* Frameworks */,
+				64DC76871BB4DB0000A459CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64DC768B1BB4DB0000A459CE /* PBXTargetDependency */,
+			);
+			name = "COMP510 - REUITests";
+			productName = "COMP510 - REUITests";
+			productReference = 64DC76891BB4DB0000A459CE /* COMP510 - REUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64DC765F1BB4DB0000A459CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = COMP510;
+				TargetAttributes = {
+					64DC76661BB4DB0000A459CE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					64DC767D1BB4DB0000A459CE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 64DC76661BB4DB0000A459CE;
+					};
+					64DC76881BB4DB0000A459CE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 64DC76661BB4DB0000A459CE;
+					};
+				};
+			};
+			buildConfigurationList = 64DC76621BB4DB0000A459CE /* Build configuration list for PBXProject "COMP510 - RE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64DC765E1BB4DB0000A459CE;
+			productRefGroup = 64DC76681BB4DB0000A459CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64DC76661BB4DB0000A459CE /* COMP510 - RE */,
+				64DC767D1BB4DB0000A459CE /* COMP510 - RETests */,
+				64DC76881BB4DB0000A459CE /* COMP510 - REUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64DC76651BB4DB0000A459CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DC76781BB4DB0000A459CE /* LaunchScreen.storyboard in Resources */,
+				64DC76751BB4DB0000A459CE /* Assets.xcassets in Resources */,
+				64DC76701BB4DB0000A459CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC767C1BB4DB0000A459CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC76871BB4DB0000A459CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64DC76631BB4DB0000A459CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DC766D1BB4DB0000A459CE /* ViewController.swift in Sources */,
+				64DC76731BB4DB0000A459CE /* COMP510___RE.xcdatamodeld in Sources */,
+				64DC766B1BB4DB0000A459CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC767A1BB4DB0000A459CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DC76831BB4DB0000A459CE /* COMP510___RETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC76851BB4DB0000A459CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DC768E1BB4DB0000A459CE /* COMP510___REUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64DC76801BB4DB0000A459CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64DC76661BB4DB0000A459CE /* COMP510 - RE */;
+			targetProxy = 64DC767F1BB4DB0000A459CE /* PBXContainerItemProxy */;
+		};
+		64DC768B1BB4DB0000A459CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64DC76661BB4DB0000A459CE /* COMP510 - RE */;
+			targetProxy = 64DC768A1BB4DB0000A459CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64DC766E1BB4DB0000A459CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DC766F1BB4DB0000A459CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64DC76761BB4DB0000A459CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DC76771BB4DB0000A459CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64DC76901BB4DB0000A459CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64DC76911BB4DB0000A459CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64DC76931BB4DB0000A459CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "COMP510 - RE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danksite.COMP510---RE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64DC76941BB4DB0000A459CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "COMP510 - RE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danksite.COMP510---RE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64DC76961BB4DB0000A459CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "COMP510 - RETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danksite.COMP510---RETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COMP510 - RE.app/COMP510 - RE";
+			};
+			name = Debug;
+		};
+		64DC76971BB4DB0000A459CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "COMP510 - RETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danksite.COMP510---RETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COMP510 - RE.app/COMP510 - RE";
+			};
+			name = Release;
+		};
+		64DC76991BB4DB0000A459CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "COMP510 - REUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danksite.COMP510---REUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "COMP510 - RE";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		64DC769A1BB4DB0000A459CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "COMP510 - REUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danksite.COMP510---REUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "COMP510 - RE";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64DC76621BB4DB0000A459CE /* Build configuration list for PBXProject "COMP510 - RE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DC76901BB4DB0000A459CE /* Debug */,
+				64DC76911BB4DB0000A459CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DC76921BB4DB0000A459CE /* Build configuration list for PBXNativeTarget "COMP510 - RE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DC76931BB4DB0000A459CE /* Debug */,
+				64DC76941BB4DB0000A459CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64DC76951BB4DB0000A459CE /* Build configuration list for PBXNativeTarget "COMP510 - RETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DC76961BB4DB0000A459CE /* Debug */,
+				64DC76971BB4DB0000A459CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64DC76981BB4DB0000A459CE /* Build configuration list for PBXNativeTarget "COMP510 - REUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DC76991BB4DB0000A459CE /* Debug */,
+				64DC769A1BB4DB0000A459CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64DC76711BB4DB0000A459CE /* COMP510___RE.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64DC76721BB4DB0000A459CE /* COMP510___RE.xcdatamodel */,
+			);
+			currentVersion = 64DC76721BB4DB0000A459CE /* COMP510___RE.xcdatamodel */;
+			path = "COMP510___RE.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64DC765F1BB4DB0000A459CE /* Project object */;
+}
