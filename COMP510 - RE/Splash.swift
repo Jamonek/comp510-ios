@@ -28,7 +28,7 @@ class Splash: UIViewController {
         fbSigninButton.layer.borderWidth = 1.75
         fbSigninButton.layer.cornerRadius = 6
         
-        fbSigninButton.addTarget(self, action: nil, forControlEvents: UIControlEvents.TouchUpInside)
+        fbSigninButton.addTarget(self, action: "loginButton:", forControlEvents: UIControlEvents.TouchUpInside)
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,7 +49,43 @@ class Splash: UIViewController {
             height: 50
         )
     }
-
-
+    
+    func loginButton(sender:UIButton) {
+        let login = FBSDKLoginManager()
+        login.logInWithReadPermissions(["email", "public_profile"], fromViewController: self, handler: {(result, error) -> Void in
+            if error != nil {
+                // Handle error
+                NSLog("Login error: %s", error!)
+            } else if result.isCancelled {
+                // Handle cancellations
+                NSLog("Login cancelled")
+            } else {
+                if result.grantedPermissions.contains("public_profile") {
+                    self.returnUserData()
+                }
+            }
+        })
+    }
+    
+    func returnUserData()
+    {
+        let graphRequest : FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me", parameters: nil)
+        graphRequest.startWithCompletionHandler({ (connection, result, error) -> Void in
+            
+            if ((error) != nil)
+            {
+                // Process error
+                print("Error: \(error)")
+            }
+            else
+            {
+                let userName : NSString = result.valueForKey("name") as! NSString
+                fullName = userName as String
+                loggedIn = true
+                // dismissView
+                self.dismissViewControllerAnimated(true, completion: nil)
+            }
+        })
+    }
 }
 

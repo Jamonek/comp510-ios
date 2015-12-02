@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64A039941C0F782F000AE586 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A039931C0F782F000AE586 /* Tab.swift */; };
+		64A039971C0F793A000AE586 /* UserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A039961C0F793A000AE586 /* UserStatus.swift */; };
+		64A039991C0F7F34000AE586 /* Recommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A039981C0F7F34000AE586 /* Recommendations.swift */; };
+		64A0399B1C0F7F3E000AE586 /* MusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0399A1C0F7F3E000AE586 /* MusicVC.swift */; };
+		64A0399D1C0F7F4A000AE586 /* MusicDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0399C1C0F7F4A000AE586 /* MusicDataManager.swift */; };
+		64A039A01C0F7F75000AE586 /* RecommendationsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0399F1C0F7F75000AE586 /* RecommendationsDataManager.swift */; };
 		64DC766B1BB4DB0000A459CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC766A1BB4DB0000A459CE /* AppDelegate.swift */; };
 		64DC766D1BB4DB0000A459CE /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC766C1BB4DB0000A459CE /* Splash.swift */; };
 		64DC76701BB4DB0000A459CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC766E1BB4DB0000A459CE /* Main.storyboard */; };
@@ -37,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64A039931C0F782F000AE586 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		64A039961C0F793A000AE586 /* UserStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatus.swift; sourceTree = "<group>"; };
+		64A039981C0F7F34000AE586 /* Recommendations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recommendations.swift; sourceTree = "<group>"; };
+		64A0399A1C0F7F3E000AE586 /* MusicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVC.swift; sourceTree = "<group>"; };
+		64A0399C1C0F7F4A000AE586 /* MusicDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDataManager.swift; sourceTree = "<group>"; };
+		64A0399F1C0F7F75000AE586 /* RecommendationsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationsDataManager.swift; sourceTree = "<group>"; };
 		64DC76671BB4DB0000A459CE /* COMP510 - RE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COMP510 - RE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DC766A1BB4DB0000A459CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64DC766C1BB4DB0000A459CE /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
@@ -83,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64A039951C0F792E000AE586 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				64A039961C0F793A000AE586 /* UserStatus.swift */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		64A0399E1C0F7F5B000AE586 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				64A0399C1C0F7F4A000AE586 /* MusicDataManager.swift */,
+				64A0399F1C0F7F75000AE586 /* RecommendationsDataManager.swift */,
+			);
+			name = DataManagers;
+			sourceTree = "<group>";
+		};
 		64DC765E1BB4DB0000A459CE = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +137,8 @@
 		64DC76691BB4DB0000A459CE /* COMP510 - RE */ = {
 			isa = PBXGroup;
 			children = (
+				64A0399E1C0F7F5B000AE586 /* DataManagers */,
+				64A039951C0F792E000AE586 /* Singletons */,
 				64DC769C1BB4FA2800A459CE /* Controller */,
 				64DC769B1BB4FA2200A459CE /* Model */,
 				64DC766A1BB4DB0000A459CE /* AppDelegate.swift */,
@@ -150,6 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				64DC766C1BB4DB0000A459CE /* Splash.swift */,
+				64A039931C0F782F000AE586 /* Tab.swift */,
+				64A039981C0F7F34000AE586 /* Recommendations.swift */,
+				64A0399A1C0F7F3E000AE586 /* MusicVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -354,7 +388,13 @@
 			files = (
 				64DC769E1BB4FAE100A459CE /* User.swift in Sources */,
 				64DC766D1BB4DB0000A459CE /* Splash.swift in Sources */,
+				64A0399B1C0F7F3E000AE586 /* MusicVC.swift in Sources */,
+				64A0399D1C0F7F4A000AE586 /* MusicDataManager.swift in Sources */,
+				64A039941C0F782F000AE586 /* Tab.swift in Sources */,
 				64DC76731BB4DB0000A459CE /* COMP510___RE.xcdatamodeld in Sources */,
+				64A039A01C0F7F75000AE586 /* RecommendationsDataManager.swift in Sources */,
+				64A039991C0F7F34000AE586 /* Recommendations.swift in Sources */,
+				64A039971C0F793A000AE586 /* UserStatus.swift in Sources */,
 				64DC766B1BB4DB0000A459CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
