@@ -15,8 +15,8 @@
 		64DC76781BB4DB0000A459CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC76761BB4DB0000A459CE /* LaunchScreen.storyboard */; };
 		64DC76831BB4DB0000A459CE /* COMP510___RETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC76821BB4DB0000A459CE /* COMP510___RETests.swift */; };
 		64DC768E1BB4DB0000A459CE /* COMP510___REUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC768D1BB4DB0000A459CE /* COMP510___REUITests.swift */; };
-		64DC769E1BB4FAE100A459CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC769D1BB4FAE100A459CE /* User.swift */; settings = {ASSET_TAGS = (); }; };
-		A673E39D368EED19D1D62D91 /* Pods_COMP510___RE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659161D3C8682E17E050C580 /* Pods_COMP510___RE.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		64DC769E1BB4FAE100A459CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC769D1BB4FAE100A459CE /* User.swift */; };
+		A673E39D368EED19D1D62D91 /* Pods_COMP510___RE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659161D3C8682E17E050C580 /* Pods_COMP510___RE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
